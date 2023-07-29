@@ -1,0 +1,5 @@
+.menu.profilemenu {
+    background: hsl(var(--b3));
+    height: 100%;
+    overflow: hidden;
+}

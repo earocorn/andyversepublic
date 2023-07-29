@@ -1,0 +1,21 @@
+.container {
+    overflow-x: auto;
+}
+.table {
+    border-collapse: collapse;
+    table-layout: auto;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .table .email-col,
+    .table .date-col {
+        display: none;
+    }
+
+    .table th,
+    .table td {
+        padding: 10px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,21 @@
+.similarmovies.container {
+    justify-content: right;
+    text-align: center;
+}
+
+.similarmoviestitle {
+    text-align: center;
+}
+
+.reviewcard {
+    display: flex;
+}
+
+.homepageheader {
+    display: flex;
+    justify-content: center;
+}
+
+.refreshbutton {
+    transform: translateY(8px);
+}

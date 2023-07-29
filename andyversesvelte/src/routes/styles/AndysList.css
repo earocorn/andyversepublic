@@ -1,0 +1,12 @@
+.suggestionbox {
+    padding-top: 10vh;
+}
+
+.andyslistheader {
+    display: flex;
+    justify-content: center;
+}
+
+.refreshbutton {
+    transform: translateY(8px);
+}

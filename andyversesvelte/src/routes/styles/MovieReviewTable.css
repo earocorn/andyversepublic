@@ -1,0 +1,26 @@
+.container {
+    overflow-x: auto;
+}
+.table {
+    border-collapse: collapse;
+    table-layout: auto;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .table .rating-col,
+    .table .author-col,
+    .table .reviewed-col,
+    .table .media-type-col,
+    .table .spoiler-col,
+    .table .fav-col,
+    .table .public-col {
+        display: none;
+    }
+
+    .table th,
+    .table td {
+        padding: 10px;
+        font-size: 12px;
+    }
+}

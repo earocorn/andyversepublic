@@ -1,0 +1,26 @@
+.navbar {
+	background-color: hsl(var(--b3));
+}
+
+.menu {
+	background-color: hsl(var(--b2));
+	border-radius: 5px;
+}
+
+.menu.menu-horizontal {
+	transform: translateX(-12vw);
+}
+
+.btn {
+	text-transform: none;
+}
+
+.btn.btn-ghost.hidden-lg {
+	display: flex;
+}
+
+@media (min-width: 1025px) {
+	.btn.btn-ghost.hidden-lg {
+		display: none;
+	}
+}
